@@ -1,46 +1,51 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>principal</title>
+	<title>inicio de sesion</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<div id="contenedor">.
+	<div id="contenedor">
 		<header id="encabezado">
 			<h1>GYM Hércules</h1>
 		</header>
-		<aside id="serie">
-			<img class="ico" src="images/imag1.jpg">
-			<img class="ico" src="images/imag4.jpg">
-			<img class="ico" src="images/imag3.jpg">
-		</aside>
-		<section id="accesoR">
-			<a href=""><div class="acc">
-				<p>
-					agregar negocio
-				</p>
-			</div></a>
-			<a href=""><div class="acc">
-				<p>
-					agregar ciudad
-				</p>
-			</div></a>
-			<a href=""><div class="acc">
-				<p>
-					consultar negocio
-				</p>
-			</div></a>
-			<a href=""><div class="acc">
-				<p>
-					consultar ciudad
-				</p>
-			</div></a>
+		<section class="sub">
+			<ul>
+				<li><a href="#">INICIO </a></li>
+				<li><a href="#">AYUDA</a></li>
+				<li><a href="#">ACERCA DE</a></li>
+				<li><a href="#">VISITAS</a></li>
+			</ul>
 		</section>
-		<footer id="pieP">
+		<section>
+			<div class="col-6">
+				<img src="images/imag7.jpg" style="width:100%" >
+			</div>
+			<div class="col-2"></div>
+			<div class="col-5">
+				<form id="inicioS" method="" action="principal.html">
+					<p>
+						<label>Usuario</label>
+					</p>
+					<p>
+						<select>
+							<option>Instructor</option>
+							<option>Cliente</option>
+						</select>
+					</p>
+					<p><label>Contraseña:
+					</label>
+					</p>
+					<p><input type="password" placeholder="Contraseña">
+					</p>
+				    <p><input type="submit" value="Entrar">
+				    </p>
+				</form>
+			</div>
+		</section>
+		<footer id="pie">
 			<small>desarrollo de aplicaciones web 2016</small>
 		</footer>
-
 	</div>
 </body>
 </html>
