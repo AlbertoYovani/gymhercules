@@ -14,6 +14,8 @@ body{
 	text-align: center;
 	width: 100%;
 	border: 1px solid #9a5c18;
+	background: #030303;
+	color: #b1b1b1; 
 }
 #col{
 	float:left;
@@ -22,6 +24,7 @@ body{
 }
 #imag{
 	width:100%;
+margin-right:10px;
 }
 #principal{
 	float:left;
@@ -94,8 +97,10 @@ input[type="submit"]{
 .sub{
 	width: 100%;
 	margin-top: 10px;
-	background-color: #5F4587;
+	background-color: #3b5998;
 	padding:1px 1px 1px 1px;
+	margin-bottom: 10px;
+
 }
 .sub ul li
 {
@@ -103,11 +108,13 @@ border-spacing: 3px;
 list-style: none;
 display: inline-block;
 margin-right: 100px;
+
 }
 .sub  ul  li a 
 {
 color: white;
 text-decoration: none;;
+
 }
 select, input{
 	width: 100%!important;
